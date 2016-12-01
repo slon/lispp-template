@@ -21,7 +21,6 @@ TEST_F(LispTest, DISABLED_ListSyntax) {
 
 TEST_F(LispTest, DISABLED_ListInvalidSyntax) {
     ExpectSyntaxError("((1)");
-    ExpectSyntaxError("(1))");
     ExpectSyntaxError(")(1)");
 
     ExpectSyntaxError("(.)");
