@@ -27,6 +27,7 @@ add_executable(run_tests
     test/test_boolean.cpp
     test/test_symbol.cpp
     test/test_list.cpp
+    test/test_lambda.cpp
     test/test_control_flow.cpp
 )
 
