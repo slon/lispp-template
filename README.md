@@ -115,7 +115,7 @@ scheme. Интерпретатор должен поддерживать 4 ти�
 <expression> -> <constant>
               | <variable>
               | (quote <datum>) | '<datum>
-              | (lambda (<variable>+) <body>)
+              | (lambda (<variable>*) <body>)
               | (set! <variable> <expression>)
               | (and <expression>*) | (or <expression>*)
               | (if <expression> <expression> <expression>) | (if <expression> <expression>)
